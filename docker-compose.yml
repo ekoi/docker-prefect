@@ -8,7 +8,7 @@ services:
     container_name: 'prefect'
     command: sh start-prefect.sh
     volumes:
-      - "./scripts:/scripts/"
+      - "./scripts:/app/"
     ports:
       # Local development only
       - "4200:4200"
